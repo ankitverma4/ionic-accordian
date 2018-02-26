@@ -20,6 +20,7 @@ export class HomePage {
   }
 
   	toggleGroup(group) {
+  		console.log(group);
 	    if (this.isGroupShown(group)) {
 	        this.shownGroup = null;
 	    } else {
